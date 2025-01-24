@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "white"
+        "backgroundColor": "#ffffff"
       },
       "package": "com.mridulians.first_app"
     },
@@ -25,7 +25,7 @@
     },
     "splash": {
       "resizeMode": "cover",
-      "backgroundColor": "white"
+      "backgroundColor": "#ffffff"
     },
     "plugins": [
       "expo-router",
@@ -33,7 +33,7 @@
         "expo-splash-screen",
         {
           "resizeMode": "cover",
-          "backgroundColor": "white"
+          "backgroundColor": "#ffffff"
         }
       ]
     ],
