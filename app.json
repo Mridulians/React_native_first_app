@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "first_app",
+    "slug": "first_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash_img.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "white"
+      },
+      "package": "com.mridulians.first_app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "splash": {
+      "resizeMode": "cover",
+      "backgroundColor": "white"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "resizeMode": "cover",
+          "backgroundColor": "white"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "efe8ab7e-2489-45b1-9e20-8ff5312969a3"
+      }
+    },
+    "owner": "mridulians"
+  }
+}
